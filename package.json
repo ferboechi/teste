@@ -1,0 +1,22 @@
+{
+  "name": "node-hello-app",
+  "version": "1.0.0",
+  "description": "Teste node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferboechi/teste.git"
+  },
+  "author": "ferboechi@live.com",
+  "license": "UPL-1.0",
+  "bugs": {
+    "url": "https://github.com/ferboechi/teste/issues"
+  },
+  "homepage": "https://github.com/ferboechi/teste#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
