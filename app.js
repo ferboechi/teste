@@ -4,6 +4,7 @@ const app = express()
 app.use(express.json())
 
 app.get('/teste', function (req, res) {
+  console.log('Request');
   res.json({ teste: "teste"});
 })
 
