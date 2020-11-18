@@ -3,7 +3,7 @@ const app = express()
 
 app.use(express.json())
 
-app.get('/', function (req, res) {
+app.get('/teste', function (req, res) {
   res.json({ teste: "teste"});
 })
 
